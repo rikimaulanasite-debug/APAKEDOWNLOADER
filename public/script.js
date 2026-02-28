@@ -59,7 +59,7 @@ function renderResult(medias) {
         let typeTitle = 'MEDIA_FILE';
         let mediaPreview = '';
         const ext = media.extension || 'mp4';
-        const filename = `Sann404_DL_${Date.now()}_${index}.${ext}`;
+        const filename = `ikyapake_DL_${Date.now()}_${index}.${ext}`;
 
         if (media.type === 'video') {
             typeTitle = `VIDEO_DATA [${media.quality || 'HD'}]`;
